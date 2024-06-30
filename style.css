@@ -1,0 +1,57 @@
+body {
+    background-color: #dbdbdb9a;
+}
+.perant {
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-evenly;
+}
+
+.head {
+    color: #0866ff;
+    font-family: fantasy;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.abc {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 20px grey;
+    width: 350px !important;
+    box-sizing: border-box;
+}
+
+input {
+    width: 340px !important;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.btn {
+    margin: 10px;
+}
+#Logout_container{
+    position: relative;
+    bottom: 300px;
+}
+#username_logout{
+    color: #0866ff;
+}
+#Logout_btn{
+    padding: 7px 20px;
+    color: white;
+    margin: 0 0 0 1400px;
+    justify-content: flex-end;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 15px;
+}
+#Logout_btn:hover{
+    background-color: white;
+    border: red 1px solid ;
+    color: red;
+    cursor: pointer;
+    justify-content: flex-end;
+}
