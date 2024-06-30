@@ -1,6 +1,7 @@
 body {
     background-color: #dbdbdb9a;
 }
+
 .perant {
     display: flex;
     margin-top: 160px;
@@ -32,14 +33,17 @@ input {
 .btn {
     margin: 10px;
 }
-#Logout_container{
+
+#Logout_container {
     position: relative;
     bottom: 300px;
 }
-#username_logout{
+
+#username_logout {
     color: #0866ff;
 }
-#Logout_btn{
+
+#Logout_btn {
     padding: 7px 20px;
     color: white;
     margin: 0 0 0 1400px;
@@ -48,10 +52,53 @@ input {
     background-color: red;
     border-radius: 15px;
 }
-#Logout_btn:hover{
+
+#Logout_btn:hover {
     background-color: white;
-    border: red 1px solid ;
+    border: red 1px solid;
     color: red;
     cursor: pointer;
     justify-content: flex-end;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+    #Logout_btn {
+        text-align: center;
+        padding: 5px 15px;
+        color: white;
+        margin: 0 0 0 250px;
+        background-color: blue;
+        justify-content: flex-end;
+        font-size: 10px;
+        /* background-color: red; */
+        border-radius: 15px;
+    }
+    #username_logout {
+        color: #0866ff;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    #Logout_btn {
+        padding: 7px 20px;
+        color: white;
+        margin: 0 0 0 500px;
+        background-color: yellow;
+        justify-content: flex-end;
+        font-size: 20px; 
+        /* background-color: red; */
+        border-radius: 15px;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1216px) {
+    #Logout_btn {
+        padding: 7px 20px;
+        color: white;
+        margin: 0 0 0 1000px;
+        background-color: pink;
+        justify-content: flex-end;
+        font-size: 20px; 
+        /* background-color: red; */
+        border-radius: 15px;
+    }
 }
