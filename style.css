@@ -54,11 +54,7 @@ input {
 }
 
 #Logout_btn:hover {
-    background-color: white;
-    border: red 1px solid;
-    color: red;
-    cursor: pointer;
-    justify-content: flex-end;
+    background-color: rgba(255, 0, 0, 0.6);
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px) {
